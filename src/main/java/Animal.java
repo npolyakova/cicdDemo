@@ -4,7 +4,7 @@ public class Animal {
     int age;
 
     public void eat() {
-        hungry = false;
+        hungry = true;
     }
 
     public void getOld() {
