@@ -19,4 +19,5 @@ public class AnimalTest {
 
         Assertions.assertEquals(animal.age, 3);
     }
+    
 }
