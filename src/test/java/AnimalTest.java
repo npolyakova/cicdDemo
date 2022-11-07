@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class AnimalTest {
 
     @Test
@@ -19,4 +21,10 @@ public class AnimalTest {
 
         Assertions.assertEquals(animal.age, 3);
     }
+
+    @Test
+    public void shouldDoNothing() {
+        assertTrue(true);
+    }
+
 }
